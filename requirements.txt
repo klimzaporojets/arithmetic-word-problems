@@ -1,0 +1,6 @@
+spacy==2.1.9
+torch==1.5.0
+sympy==1.8
+tensorboard-logger==0.1.0
+numpy==1.20.3
+torchvision==0.6.0

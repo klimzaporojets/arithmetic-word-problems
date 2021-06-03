@@ -1,0 +1,7 @@
+.idea
+/data
+__pycache__
+/logs
+/experiments
+data.zip
+experiments.zip
