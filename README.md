@@ -1,6 +1,6 @@
 # Solving Arithmetic Word Problems by Scoring Equations with Recursive Neural Networks (this repository is a work in progress!)
 
-##Introduction 
+## Introduction 
 This repository contains the code to reproduce the results from the following paper: 
 ```
 @article{zaporojets2021solving,
@@ -15,7 +15,7 @@ This repository contains the code to reproduce the results from the following pa
 }
 ```
 
-##Downloading the Dataset and Models
+## Downloading the Dataset and Models
 The dataset and models are located in [this link](https://cloud.ilabt.imec.be/index.php/s/3EpEHW5gEA38Ljo).
  Once downloaded and unzipped, the directory structure should look as follows:
 ```
@@ -29,7 +29,7 @@ The dataset and models are located in [this link](https://cloud.ilabt.imec.be/in
 ├── src/
 ...
 ```
-##Creating the Environment
+## Creating the Environment
 It is recommended to create a separate conda environment, then install the necessary packages 
 inside: 
 ```bash
@@ -40,7 +40,7 @@ python3 -m spacy download en_core_web_sm
 
 ```
 
-##Reproducing the Results
+## Reproducing the Results
 To reproduce the results of the paper (Tables 4-5 and 7) run the following script: 
 
 ```python src/main_reproduce_results.py```
@@ -50,6 +50,6 @@ By default, the script will read the predictions in ```.csv``` files located in
 ```--execute_models True``` parameter to the script. To execute the models on GPU, pass  
 ```--use_gpu True``` parameter. 
 
-##Training the Models 
+## Training the Models 
 Work in Progress
 
