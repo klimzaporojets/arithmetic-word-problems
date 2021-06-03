@@ -41,14 +41,13 @@ python3 -m spacy download en_core_web_sm
 ```
 
 ## Reproducing the Results
-To reproduce the results of the paper (Tables 4-5 and 7) run the following script: 
+To reproduce the results of the paper (Tables 4-5 and 7), run the following script: 
 
 ```python src/main_reproduce_results.py```
 
 By default, the script will read the predictions in ```.csv``` files located in 
-```experiments/results/``` directory. To execute all the models, pass  
-```--execute_models True``` parameter to the script. To execute the models on GPU, pass  
-```--use_gpu True``` parameter. 
+```experiments/results/``` directory. To execute all the models, pass ```--execute_models True``` parameter to the 
+script. To execute the models on GPU, pass ```--use_gpu True``` parameter. 
 
 ## Training the Models 
 Work in Progress
