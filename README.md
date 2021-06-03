@@ -52,3 +52,6 @@ script. To execute the models on GPU, pass ```--use_gpu True``` parameter.
 ## Training the Models 
 Work in Progress
 
+## Contact
+You can contact us at <klim.zaporojets@ugent.be>
+
