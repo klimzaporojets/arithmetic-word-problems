@@ -1,4 +1,4 @@
-# Solving Arithmetic Word Problems by Scoring Equations with Recursive Neural Networks (this repository is a work in progress!)
+# Solving Arithmetic Word Problems by Scoring Equations with Recursive Neural Networks 
 
 ## Introduction 
 This repository contains the code to reproduce the results from the following paper: 
